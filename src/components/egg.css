@@ -22,19 +22,21 @@ body {
 
 .container {
   height: 100%;
+  width: 300px;
+  margin: auto;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
 }
 
 .stove {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 100%;
   height: 200px;
+  margin-top: 200px;
 }
 
 p {
@@ -43,10 +45,16 @@ p {
 
 .egg-input {
   display: flex;
-  width: 200px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .egg-form {
+  display: flex;
   padding-right: 10px;
 }
 
