@@ -134,7 +134,7 @@ export default class Egg extends React.Component {
     return (
       <div className="container">
         <div className="title">
-          <h1>Egg</h1>
+          <h1>egg</h1>
           <div className="egg-input">
             <form
               className="egg-form"
